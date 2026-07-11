@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.parent-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 115.5px;
+    margin-right: 117px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.navlinks{
+    display:flex;
+    gap: 24px;
+    list-style: none;
+    
+}
+.navlinks li a{
+    text-decoration: none;
+    color: #575757;
+}
+.new-btn{
+    padding: 12px 41.5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1D4ED8;
+    color: #ffff;
+}
