@@ -67,6 +67,8 @@
   font-size: 22px;
   padding: 20px 49px;
 }
+/* Meet the speakers */
+
 .grid-section {
   margin: 45px 55.5px;
 }
@@ -84,11 +86,22 @@
   width: 100%;
   display: block;
 }
-.box h3 {
-  padding: 10px 20px;
+.sectors {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 24px 24px 8px;
 }
-.box p {
-  padding: 0 20px 15px;
+.box h3 {
+  margin: 8px 24px 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+.company {
+  margin: 8px 24px 24px;
+  color: #6b7280;
+  font-size: 14px;
 }
 .grid-section-modify {
   display: grid;
@@ -101,6 +114,8 @@
   width: 1200px;
   margin: 100px auto;
 }
+
+/* Secure your spot section */
 .secure-section {
   width: 1200px;
   margin: 120px auto;
