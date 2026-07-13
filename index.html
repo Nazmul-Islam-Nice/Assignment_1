@@ -1,173 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-</style>
-</head>
-<body>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="parent-nav">
-            <div>
-                <!-- left -->
-                <img src="./logo.png" alt="">
-            </div>
-            <!-- right -->
-            <div>
-                <ul class="navlinks">
-                    <li><a href="">Speakers</a></li>
-                    <li><a href="">Schedule</a></li>
-                    <li><a href="">Tracks</a></li>
-                    <li><a href="">Venue</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </div>
-            <div><button class="new-btn">Register Now</button></div>
-        </nav>
+      <nav class="parent-nav">
+        <div>
+          <!-- left -->
+          <img src="./logo.png" alt="" />
+        </div>
+        <!-- right -->
+        <div>
+          <ul class="navlinks">
+            <li><a href="">Speakers</a></li>
+            <li><a href="">Schedule</a></li>
+            <li><a href="">Tracks</a></li>
+            <li><a href="">Venue</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div><button class="new-btn">Register Now</button></div>
+      </nav>
     </header>
     <!-- hero section -->
     <section class="hero-parent">
-        <div>
-            <h1>Code.<i>Connect. </i>Create</h1>
-            <p>Join 4,000+ engineers, founders, and builders at the premier developer<br>conference of 2026. Three days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</p>
-            <button class="new-btn x">Register Now</button>
-        </div>
-    </section>   
+      <div>
+        <h1>Code.<i>Connect. </i>Create</h1>
+        <p>
+          Join 4,000+ engineers, founders, and builders at the premier
+          developer<br />conference of 2026. Three days of cutting-edge talks,
+          hands-on workshops,<br />
+          and meaningful connections.
+        </p>
+        <button class="new-btn x">Register Now</button>
+      </div>
+    </section>
     <!-- Meet the speakers    -->
-       
-    <section class="grid-section">
-        <h1 style="text-align: center; font-size: 50px;">Meet the speakers</h1>
-        
-        <div class="grid-section-modify">
-        <div class="box">
-            <img src="./andrej.png" alt="">
-            <p>AI/ML</p>
-            <h3>Andrej Karpathy</h3>
-            <p>Pretraining team, Anthropic</p>
 
+    <section class="grid-section">
+      <h1 style="text-align: center; font-size: 50px">Meet the speakers</h1>
+
+      <div class="grid-section-modify">
+        <div class="box">
+          <img src="./andrej.png" alt="" />
+          <p>AI/ML</p>
+          <h3>Andrej Karpathy</h3>
+          <p>Pretraining team, Anthropic</p>
         </div>
         <div class="box">
-            <img src="./demis.png" alt="">
-            <p>CLOUD & DEVOPS</p>
-            <h3>Demis Hassabis</h3>
-            <p>Co-Founder and CEO, Google DeepMind</p>
-            
+          <img src="./demis.png" alt="" />
+          <p>CLOUD & DEVOPS</p>
+          <h3>Demis Hassabis</h3>
+          <p>Co-Founder and CEO, Google DeepMind</p>
         </div>
         <div class="box">
-            <img src="./gary.png" alt="">
-            <p>FRONTEND</p>
-            <h3>Gary Marcus</h3>
-            <p>Staff Engineer, vercel</p>
+          <img src="./gary.png" alt="" />
+          <p>FRONTEND</p>
+          <h3>Gary Marcus</h3>
+          <p>Staff Engineer, vercel</p>
         </div>
         <div class="box">
-             <img src="./mustafa.png" alt="">
-            <p>SECURITY</p>
-            <h3>Mustafa Suleyman</h3>
-            <p>CEO of Microsoft AI</p>
+          <img src="./mustafa.png" alt="" />
+          <p>SECURITY</p>
+          <h3>Mustafa Suleyman</h3>
+          <p>CEO of Microsoft AI</p>
         </div>
-        </div>
+      </div>
     </section>
     <!-- Secure Your Spot -->
 
-<section class="secure-section">
+    <section class="secure-section">
+      <h1 class="secure-title">Secure Your Spot</h1>
 
-    <h1 class="secure-title">Secure Your Spot</h1>
+      <p class="secure-subtitle">Early-bird pricing ends August 15, 2026.</p>
 
-    <p class="secure-subtitle">
-        Early-bird pricing ends August 15, 2026.
-    </p>
-
-    <div class="secure-div-card">
-
+      <div class="secure-div-card">
         <!-- Standard Card -->
 
         <div class="general-box">
+          <h5 class="t1">STANDARD</h5>
 
-            <h5 class="t1">STANDARD</h5>
+          <h1 class="t2">$399</h1>
 
-            <h1 class="t2">$399</h1>
+          <p class="price-text">per person</p>
 
-            <p class="price-text">per person</p>
+          <hr />
 
-            <hr>
+          <ul class="pricing-list">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
 
-            <ul class="pricing-list">
-                <li>Access to all 3 conference days</li>
-                <li>48 curated technical talks</li>
-                <li>2 workshop sessions</li>
-                <li>Networking lunch & coffee breaks</li>
-                <li>Conference swag bag</li>
-                <li>Digital recordings (30 days)</li>
-            </ul>
-
-            <button class="standard-btn">
-                Get Standard
-            </button>
-
+          <button class="standard-btn">Get Standard</button>
         </div>
 
         <!-- PRO CARD -->
 
         <div class="pro-background">
+          <h5 class="h4-pro">PRO</h5>
 
-            <h5 class="h4-pro">PRO</h5>
+          <h1 class="pro-dollar">$749</h1>
 
-            <h1 class="pro-dollar">$749</h1>
+          <p class="pro-person">per person</p>
 
-            <p class="pro-person">
-                per person
-            </p>
+          <hr class="pro-line" />
 
-            <hr class="pro-line">
+          <ul class="pricing-list pro-list">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
 
-            <ul class="pricing-list pro-list">
-                <li>Everything in Standard</li>
-                <li>Unlimited workshop access</li>
-                <li>Speaker meet & greet</li>
-                <li>VIP networking dinner</li>
-                <li>Lifetime recording access</li>
-                <li>1-on-1 mentorship (30 min)</li>
-            </ul>
-
-            <button class="pro-btn">
-                Get Pro
-            </button>
-
+          <button class="pro-btn">Get Pro</button>
         </div>
 
         <!-- TEAM -->
 
         <div class="general-box">
+          <h5 class="t1">TEAM</h5>
 
-            <h5 class="t1">TEAM</h5>
+          <h1 class="t2">$5,999</h1>
 
-            <h1 class="t2">$5,999</h1>
+          <p class="price-text">up to 10 people</p>
 
-            <p class="price-text">
-                up to 10 people
-            </p>
+          <hr />
 
-            <hr>
+          <ul class="pricing-list">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
 
-            <ul class="pricing-list">
-                <li>Everything in Pro (10 seats)</li>
-                <li>Dedicated team lounge access</li>
-                <li>Private workshop booking</li>
-                <li>Company logo on event page</li>
-                <li>Recruitment booth (1 day)</li>
-                <li>Priority customer support</li>
-            </ul>
+          <button class="team-btn">Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- using AI  creating the missing part of this portion -->
 
-            <button class="team-btn">
-                Contact Us
-            </button>
+    <section class="future-section" id="future">
+      <div class="future-container">
+        <div class="future-heading">
+          <span class="future-tag">DEVCONF 2026</span>
 
+          <h2>Build Your Future at <span>DevConf 2026</span></h2>
+
+          <p>
+            From inspiration to innovation—connect with developers, founders, AI
+            pioneers, and tech leaders to build projects, discover
+            opportunities, and shape tomorrow's technology.
+          </p>
         </div>
 
-    </div>
+        <div class="future-grid">
+          <div class="future-card">
+            <div class="icon">🚀</div>
 
-</section>
+            <h3>Build Projects</h3>
+
+            <p>
+              Meet teammates, mentors and hackathon partners to turn your ideas
+              into real products.
+            </p>
+          </div>
+
+          <div class="future-card">
+            <div class="icon">💼</div>
+
+            <h3>Career Growth</h3>
+
+            <p>
+              Connect with recruiters, startups and global tech companies
+              looking for talented developers.
+            </p>
+          </div>
+          <div class="future-card">
+            <div class="icon">🤝</div>
+            <h3>Expand Network</h3>
+            <p>
+              Build meaningful connections with engineers, creators and
+              innovators from around the world.
+            </p>
+          </div>
+          <div class="future-card">
+            <div class="icon">🤖</div>
+            <h3>Explore AI Future</h3>
+            <p>
+              Experience cutting-edge AI demos, developer tools and future
+              technologies before everyone else.
+            </p>
+          </div>
+        </div>
+        <div class="future-cta">
+          <h3>Ready to Build What's Next?</h3>
+          <p>Join thousands of innovators creating tomorrow's technology.</p>
+          <a href="#" class="future-btn"> Start Your Journey → </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section>
+      <div class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <h3>DevConf</h3>
+          </div>
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>© 2026 DevConf. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
